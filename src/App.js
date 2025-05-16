@@ -4,6 +4,7 @@ import BMICalculator from './components/BMICalculator';
 import BillSplit from './components/BillSplit';
 import GuessTheNumber from './components/GuessTheNumber';
 import StringTransformers from './components/StringTransformers';
+import ColorSpotter from './components/ColorSpotter';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <BMICalculator /> */}
       {/* <BillSplit /> */}
       {/* <GuessTheNumber /> */}
-      <StringTransformers />
+      {/* <StringTransformers /> */}
+      <ColorSpotter />
     </div>
   );
 }
