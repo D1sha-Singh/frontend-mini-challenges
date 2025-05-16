@@ -9,12 +9,12 @@ import ColorSpotter from './components/ColorSpotter';
 function App() {
   return (
     <div className="App">
-      {/* <ColorMe /> */}
+      <ColorMe />
       {/* <BMICalculator /> */}
       {/* <BillSplit /> */}
       {/* <GuessTheNumber /> */}
       {/* <StringTransformers /> */}
-      <ColorSpotter />
+      {/* <ColorSpotter /> */}
     </div>
   );
 }
