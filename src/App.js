@@ -6,6 +6,7 @@ import GuessTheNumber from './components/GuessTheNumber';
 import StringTransformers from './components/StringTransformers';
 import ColorSpotter from './components/ColorSpotter';
 import Snackbar from './components/Snackbar';
+import TransferList from './components/TransferList';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <GuessTheNumber /> */}
       {/* <StringTransformers /> */}
       {/* <ColorSpotter /> */}
-      <Snackbar />
+      {/* <Snackbar /> */}
+      <TransferList />
     </div>
   );
 }
