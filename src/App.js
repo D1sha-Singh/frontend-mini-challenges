@@ -7,6 +7,7 @@ import StringTransformers from './components/StringTransformers';
 import ColorSpotter from './components/ColorSpotter';
 import Snackbar from './components/Snackbar';
 import TransferList from './components/TransferList';
+import ColumnTable from './components/ColumnTable';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <StringTransformers /> */}
       {/* <ColorSpotter /> */}
       {/* <Snackbar /> */}
-      <TransferList />
+      {/* <TransferList /> */}
+      <ColumnTable />
     </div>
   );
 }
